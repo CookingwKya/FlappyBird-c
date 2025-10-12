@@ -46,7 +46,7 @@ flappy-bird/
 
 ### Étape 1.2 : Affichage de base
 - [ ] Créer `display.h/display.c`
-- [ ] Implémenter `clear_screen()` (codes ANSI ou system("clear"))
+- [ ] Implémenter `clear_screen()` (codes ANSI ou system("clear"))  
 - [ ] Implémenter `draw_border()` pour dessiner les limites du jeu
 - [ ] Créer une grille de jeu 20x60 caractères
 - [ ] Tester l'affichage d'un cadre vide
