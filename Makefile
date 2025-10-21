@@ -1,8 +1,7 @@
 CC=gcc
 CFLAGS=-std=c99 -Wall
 TARGET=flappy_bird
-SOURCES=main.c game.c display.c
-
+SOURCES=main.c game.c display.c bird.c 
 $(TARGET): $(SOURCES)
 	$(CC) $(CFLAGS) -o $(TARGET) $(SOURCES)
 

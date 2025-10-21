@@ -33,6 +33,6 @@ void draw_border(void) {
 }
 
 void display_game_title(void) {
-    printf("\n🎮 FLAPPY BIRD - Version ASCII\n");
-    printf("   Développement en cours...\n\n");
+    printf("\n🎮 === FLAPPY BIRD - Version ASCII ===\n");
+    
 }
