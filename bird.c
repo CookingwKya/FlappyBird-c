@@ -20,3 +20,13 @@ void bird_draw(const Bird* bird){ //fonction qui ne retourne rien permettant de 
     printf(">");
     printf("\033[41;1H");  // Curseur en bas à gauche après dessin
 }
+
+void bird_jump(Bird* bird){
+    bird->y=bird->y+2;
+}
+
+void bird_update(Bird* bird){
+    bird->gravity=-4;
+    bird->velocity=bird->velocity+bird->gravity;
+}
+
